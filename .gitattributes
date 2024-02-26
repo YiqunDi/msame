@@ -1,0 +1,4 @@
+docker_mode_x86/npu_test/yolov4_bs1.om filter=lfs diff=lfs merge=lfs -text
+model/yolov4_bs1.om filter=lfs diff=lfs merge=lfs -text
+npu_test_x86/yolov4_bs1.om filter=lfs diff=lfs merge=lfs -text
+run_x86/yolov4_bs1.om filter=lfs diff=lfs merge=lfs -text
